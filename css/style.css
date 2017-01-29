@@ -16,6 +16,7 @@ body {
     background-size: cover;
     
     color: white;
+    font-family: Roboto, sans-serif;
 }
 
 /* Sections style */
@@ -48,10 +49,26 @@ section {
 }
 
 .center {
+    text-align: center;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .right {
     right: 15px;
+}
+
+.middle.center {
+    transform: translate(-50%, -50%);
+}
+
+/* Middle section style */
+
+#time {
+    font-size: 120px;
+    line-height: 120px;
+}
+
+#greeting {
+    font-size: 40px;
 }
