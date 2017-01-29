@@ -70,5 +70,15 @@ section {
 }
 
 #greeting {
-    font-size: 40px;
+    font-size: 48px;
+}
+
+/* Third from top section style */
+
+h3 {
+    font-size: 32px;
+}
+h4 {
+    font-size: 24px;
+    text-transform: uppercase;
 }
