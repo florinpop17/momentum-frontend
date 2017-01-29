@@ -65,7 +65,7 @@ section {
 /* Middle section style */
 
 #time {
-    font-size: 120px;
+    font-size: 140px;
     line-height: 120px;
 }
 
@@ -81,4 +81,10 @@ h3 {
 h4 {
     font-size: 24px;
     text-transform: uppercase;
+}
+
+/* Quote style */
+#quote {
+    color: #ddd;
+    font-style: italic;
 }
