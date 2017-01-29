@@ -1,0 +1,49 @@
+/* General Style */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* Sections style */
+
+/* Each section tag will be positioned fixed */
+section {
+    position: fixed;
+}
+
+/* General positioning */
+.top {
+    top: 15px;
+}
+
+.middle {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.third-from-top {
+    top: 66%;
+}
+
+.bottom {
+    bottom: 15px;
+}
+
+.left {
+    left: 15px;
+}
+
+.center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.right {
+    right: 15px;
+}
